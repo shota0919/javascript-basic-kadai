@@ -128,14 +128,17 @@ const timer = () => {
       }
     }, 1000);
 
-
+     
   };
+
+  
+  
+  setTimeout(() => {
+    document.getElementById("wrap").innerText = "タイムアップ！";
+    },61000);   
  
-  const setTimeout = () => {
-    if(gameOver) {
-        document.getElementById("wrap").innerText = "タイムアップ！";
-       } 
-     }
+
+  
               
 
  // キーボードのイベント処理
