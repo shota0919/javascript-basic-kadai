@@ -5,7 +5,7 @@ $(function () {
     });
 
     $('#change-text').on('click' , function (){
-        $('#target').text(';alkgja;l');
+        $('#target').text('こんばんは');
 
     });
 
