@@ -123,7 +123,7 @@ const timer = () => {
       count.textContent = time;
   
       // カウントが0になったらタイマーを停止する
-      if(time <= -1) {
+      if(time <= 0) {
        gameOver(id);
       }
     }, 1000);
@@ -135,7 +135,7 @@ const timer = () => {
   
   setTimeout(() => {
     document.getElementById("wrap").innerText = "タイムアップ！";
-    },61000);   
+    },60000);   
  
 
   
